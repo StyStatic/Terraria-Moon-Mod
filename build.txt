@@ -1,0 +1,3 @@
+displayName = Moon Mod
+author = StyStatic
+version = 0.1
