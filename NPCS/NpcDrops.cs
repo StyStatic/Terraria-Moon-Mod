@@ -12,7 +12,7 @@ namespace MoonMod.NPCs
 			{
 				return;
 			}
-			if (modnameworld.spawnOre)
+			if (!modnameworld.spawnOre)
 			{
 				Main.NewText("The gods do not approve of your decision. The Celestial ores have been activated", 16, 199, 245);
 				for (int i = 0; i < (int)(WorldGen.rockLayer * (double)Main.maxTilesY * 0.0004); i++)
